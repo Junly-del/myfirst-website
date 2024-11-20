@@ -1,0 +1,242 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.dark-blue-bg {
+  background-color: #002b5c;
+  color: #ffffff;
+  height: 30vh;
+  padding-top: 15px;
+}
+
+.navbar, .btn-group, .form-control, .btn-primary {
+  background-color: #002b5c;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.nav-link, .btn-link {
+  color: #ffffff;
+}
+
+.btn-group .btn.active {
+  background-color: #0056b3;
+}
+
+.form-control {
+  border-radius: 0;
+  background-color: #ffffff;
+}
+
+.button-container {
+  background-color: #ffffff;
+  padding: 20px 0;
+  margin-top: 30px;
+}
+
+.btn-custom {
+  width: 33.33%;
+  font-size: 1.1rem;
+  padding: 15px;
+  border-radius: 0;
+}
+
+.btn-custom.active {
+  background-color: #0056b3;
+  color: #ffffff;
+}
+
+.btn-custom-cheapest.active {
+  border: 2px solid #0056b3;
+  color: #0056b3;
+  background-color: white;
+}
+
+.stops-section {
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.checkbox-label {
+  color: #ffffff;
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+.filter-section {
+  margin-bottom: 20px;
+  background-color: whitesmoke;
+  overflow-y: scroll;
+
+}
+/* Adjustments for Smaller Screens */
+@media (max-width: 991px) {
+  /* On medium screens and below, set both sections to 100% width */
+  .filter-section,
+  .main-content {
+    width: 100%;
+  }
+}
+
+.filter-heading {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.filter-checkbox {
+  margin-left: 10px;
+}
+
+.hidden-options {
+  display: none;
+}
+
+.btn-toggle {
+  background-color: lightgrey;
+  width: 100%;
+}
+
+.hidden-options.show {
+  display: block;
+}
+
+.form-control-date-time {
+  margin-top: 10px;
+}
+/* Styles for Times Filter */
+.time-options {
+  display: none;
+}
+
+.time-options.show {
+  display: block;
+}
+
+.form-control-range {
+  width: 100%;
+  margin-top: 10px;
+}
+/* Styles for Airlines Filter */
+.filter-heading {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.btn-link {
+  color: #0056b3;
+  font-size: 0.9rem;
+}
+
+.form-check {
+  margin-bottom: 10px;
+}
+/* Styles for Airport, Duration, and Price Filters */
+.duration-range,
+.form-control-range {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.filter-section label {
+  display: block;
+  margin-top: 10px;
+}
+
+#price-range-label {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+/* Button styling within the cards */
+.btn-outline-primary {
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-size: 1.1rem;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+/* Card styling to further separate the buttons */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #ffffff;
+}
+/* White Background Container Styling */
+.white-background {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Spacing for sorting and deal sections */
+.white-background .row {
+  margin-bottom: 15px;
+}
+/* General styling for flight deal row */
+.flight-deal {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.flight-deal .flight-icon {
+  font-size: 1.2rem;
+  color: #FF9500; /* Orange color for the star */
+}
+
+.badge-primary {
+  background-color: #0056b3;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  border-radius: 4px;
+}
+
+.flight-time {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.airport-code {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.flight-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.price-details {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.btn-dark {
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+

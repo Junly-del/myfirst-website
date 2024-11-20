@@ -1,0 +1,60 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.bg-purple {
+  background-color: #002b5c;
+  color: white;
+  min-height: 100vh;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.btn-group .btn {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#add-flight {
+  background-color: #5a5f6d;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+#add-flight:hover {
+  background-color: #4c5566;
+}
+
+.flight-row label {
+  font-size: 0.9rem;
+  color: #ffffffcc; /* Lighter white */
+}
+
+.form-control {
+  background-color: #fff;
+  color: #333;
+  height: 45px;
+}
+
+.link-primary {
+  color: #ff69b4;
+  font-size: 0.9rem;
+  text-decoration: underline;
+}
+
+.btn-dark {
+  background-color: black;
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+

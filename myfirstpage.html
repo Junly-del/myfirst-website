@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STUDDTRAVEL Header Prototype</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Main Container with Dark Blue Background (1/4 of screen height) -->
+<div class="container-fluid dark-blue-bg">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand d-flex align-items-center" href="myfirstpage.html">
+      <img src="https://img.icons8.com/?size=100&id=omHesSjwO5M5&format=png&color=ffffff" alt="Logo" width="40" height="40" class="mr-2">
+      STUDDTRAVEL
+    </a>
+    <div class="ml-auto d-flex align-items-center">
+      <a class="nav-link text-white" href="#">Help</a>
+      <a class="nav-link text-white" href="#">Manage</a>
+      <a class="nav-link text-white" href="#">Booking</a>
+      <a class="nav-link" href="#">
+        <img src="https://img.icons8.com/?size=100&id=2yC9SZKcXDdX&format=png&color=ffffff" alt="Profile" width="30">
+      </a>
+    </div>
+  </nav>
+
+  <!-- Button Group for Flight, Hotel, Car -->
+  <div class="container">
+    <div class="btn-group btn-group-toggle d-flex justify-content-center mt-3" data-toggle="buttons">
+      <label class="btn btn-primary active">
+        <input type="radio" name="options" id="option1" autocomplete="off" checked>
+        <img src="https://img.icons8.com/?size=100&id=9352&format=png&color=ffffff" width="20" alt="Flight"> Flight
+      </label>
+      <label class="btn btn-primary">
+        <input type="radio" name="options" id="option2" autocomplete="off">
+        <img src="https://img.icons8.com/?size=100&id=10529&format=png&color=ffffff" width="20" alt="Hotel"> Hotel
+      </label>
+      <label class="btn btn-primary">
+        <input type="radio" name="options" id="option3" autocomplete="off">
+        <img src="https://img.icons8.com/?size=100&id=59751&format=png&color=ffffff" width="20" alt="Car"> Car
+      </label>
+    </div>
+  </div>
+
+    <!-- Title -->
+  <h2 class="text-center my-4">AUSTRALIA YOU WISH TO GO</h2>
+
+  <!-- Search Form -->
+  <div class="container search-box mt-4">
+    <div class="row">
+      <div class="col-md-3 mb-2">
+        <input type="text" class="form-control" placeholder="From: Sydney">
+      </div>
+      <div class="col-md-3 mb-2">
+        <input type="text" class="form-control" placeholder="To: Melbourne">
+      </div>
+      <div class="col-md-2 mb-2">
+        <input type="date" class="form-control" placeholder="Depart">
+      </div>
+      <div class="col-md-2 mb-2">
+        <input type="date" class="form-control" placeholder="Return">
+      </div>
+      <div class="col-md-2 mb-2">
+        <button type="button" class="btn btn-primary btn-block">Search</button>
+        <a href="multi_route.html" class="multi-city-link">Create a multi-city route</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Deals Section -->
+<section class="deals py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Hot Flight Deals!</h2>
+    <div class="row">
+      <div class="col-md-3 mb-4">
+        <div class="deal">
+          <img src="image/opera-sydney.webp" alt="Sydney, NSW" class="img-fluid">
+          <p class="mt-2">Sydney, NSW<br><strong>From $105</strong></p>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="deal">
+          <img src="image/Newcastle.jpg" alt="Newcastle, NSW" class="img-fluid">
+          <p class="mt-2">Newcastle, NSW<br><strong>From $145</strong></p>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="deal">
+          <img src="image/Gold_Coast_Shutterstock_172705913.jpg" alt="Gold Coast" class="img-fluid">
+          <p class="mt-2">Gold Coast<br><strong>From $167</strong></p>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="deal">
+          <img src="image/canberra.jpeg" alt="Canberra, ACT" class="img-fluid">
+          <p class="mt-2">Canberra, ACT<br><strong>From $158</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Bootstrap and Custom JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

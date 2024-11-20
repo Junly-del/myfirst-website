@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.dark-blue-bg {
+  background-color: #002b5c;
+  color: #ffffff;
+  height: 30vh;
+  padding-top: 15px;
+}
+
+.navbar, .btn-group, .form-control, .btn-primary {
+  background-color: #002b5c;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.nav-link, .btn-link {
+  color: #ffffff;
+}
+
+.btn-group .btn.active {
+  background-color: #0056b3;
+}
+
+/* Car Card Styling */
+.car-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 15px;
+  position: relative;
+}
+
+.car-image {
+  width: 100%;
+  height: auto;
+  max-height: 120px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.car-info {
+  padding: 10px 0;
+}
+
+.car-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.car-details {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.feature-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.feature-text {
+  background-color: #e0e0e0;
+  padding: 3px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
